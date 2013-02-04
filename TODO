@@ -1,0 +1,37 @@
+TODO:
+#1 Create primitive generators
+
+#2 Create primitive shrinkers
+
+#3 Create test cases for generators
+
+#4 Create type based generator dispatcher: (Generic Operation Pattern)
+   Depends on: #1
+   Description: Types should be registered under the dispatcher and registered instances
+     can be get from the dispatcher
+
+#5 Create type based shrinker dispatcher: (Generic Operation Pattern)
+   Depends on: #2
+   Description: Types should be registered under the dispatcher and registered instances
+     can be get from the dispatcher
+
+#6 Create reflection based generator factory
+   Depends on: #1
+
+#7 Syntactic sugar and defualt instances for the primitive parameters
+   Depends on: #5
+
+#8 Preconditions like testng assertions
+
+#9 Create sanity check tool class (Done, more to be add here)
+
+#10 Create maven project file, independent from TestNG (Done)
+
+
+
+
+
+
+
+
+
