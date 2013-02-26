@@ -29,6 +29,13 @@ public final class Sanity {
         }
     }
     
+    public static void nonNegative(int value, String message) {
+        if(value < 0) {
+            throw new IllegalArgumentException(message);
+        }
+    }
+
+    
     public static void greaterThanZero(int value, String message) {
         if(value <= 0) {
             throw new IllegalArgumentException(message);
